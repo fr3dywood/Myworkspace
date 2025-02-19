@@ -18,5 +18,6 @@ Administration Linux → Toujours utile pour un sysadmin
 
 📫 Me contacter
 📩 frederic.clerc.fc@gmail.com
-🔗 LinkedIn
+🔗 [LinkedIn](https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-clerc-fc/)
+
 
