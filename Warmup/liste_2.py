@@ -2,9 +2,9 @@
 while True:
     # Demande à l'utilisateur d'entrer son prénom et enlève les espaces inutiles
     name = input("Entrez votre prénom : ").strip()
-    # Si le prénom n'est pas vide, sortir de la boucle
-    if name: 
-        break
+    # Vérifie que name contient uniquement des lettres
+    if name.isalpha():
+        break # Sort de la boucle si c'est bon
     # Si le prénom est vide, afficher un message d'erreur
     print("Erreur : Veuillez entrer un prénom valide.")
 
