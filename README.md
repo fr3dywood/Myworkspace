@@ -13,6 +13,7 @@ J’adore expérimenter, comprendre comment les systèmes fonctionnent et optimi
 Python → Pour l’automatisation et les scripts d’administration
 Git & GitHub → Pour mieux gérer mes projets et mes versions
 Administration Linux → Toujours utile pour un sysadmin
+
 ⚡ Fun fact
 🔧 J’ai tendance à dire "je regarde vite fait"… et finir par passer la nuit entière à résoudre un problème technique ! 😆
 
