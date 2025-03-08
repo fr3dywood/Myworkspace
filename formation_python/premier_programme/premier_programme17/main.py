@@ -11,7 +11,7 @@ def demander_nom():
 def demander_age(nom_personne):
     age_int = 0
     while age_int == 0:
-        age_str = input(nom_personne + " quel est votre age ? ")
+        age_str = input(nom_personne+ " quel est votre age ? ")
         try:
             age_int = int(age_str)
         except ValueError:
