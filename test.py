@@ -1,8 +1,9 @@
 def demander_nom():
-    nom = ""
-    while nom == "":
-        nom = input("Quel est votre nom ?")
-    return nom
+    reponse_nom = ""
+    while reponse_nom == "":
+        reponse_nom = input("Quel est votre nom ?")
+    return reponse_nom
+
 
 def demander_age():
     age_int = 0
