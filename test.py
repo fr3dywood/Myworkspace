@@ -1,17 +1,17 @@
 def demander_nom():
     nom = ""
-    while nom == "" or not nom.isalpha():
-        nom = input("Entrez votre nom :")
+    while nom == "":
+        nom = input("Quel est votre nom ?")
     return nom
 
 def demander_age():
     age_int = 0
     while age_int == 0:
-        age_str = input("Entrez votre age : ")
+        age_str = input("Quel est votre âge ? ")
         try:
             age_int = int(age_str)
         except ValueError:
-            print("Entrez un âge valide ! ")
+            print("Entrez un âge valide !")
     return age_int
 
 nom = demander_nom()
