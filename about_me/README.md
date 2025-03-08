@@ -24,7 +24,7 @@ Je suis curieux par nature, toujours à la recherche d’optimisations et de sol
 
 ## ⚡ Fun fact
 
-🔧 Je dis souvent “je regarde vite fait”, et ça finit en nuit blanche à résoudre un problème technique… 😆  
+🔧 Je dis souvent “je regarde vite fait”, et ça finit en nuit blanche 😆  
 
 ---
 
