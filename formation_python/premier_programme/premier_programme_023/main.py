@@ -49,7 +49,7 @@ def demander_age(nom_personne):
 #-----------------------------------------------------------------------------
             
 # demander le nom
-"""nom1 = demander_nom()
+nom1 = demander_nom()
 nom2 = demander_nom()
 
 # demander l'age
@@ -58,14 +58,6 @@ age2 = demander_age(nom2)
 
 # Afficher les résultats
 afficher_informations_personne(nom1, age1)
-afficher_informations_personne(nom2, age2)"""
-
-NB_PERSONNES = 3
-
-# la boucle for
-for i in range(0, NB_PERSONNES):
-    nom = "personne" + str(i+1)
-    age = demander_age(nom)
-    afficher_informations_personne(nom, age)
+afficher_informations_personne(nom2, age2)
 
 

@@ -2,7 +2,7 @@
 Formation Python
 apprendre la programmation"""
 
-def afficher_informations_personne(nom, age):
+def afficher_informations_personne(nom, age, taille=0):
     print("Vous vous appelez " + nom + ", vous avez " + str(age) + " ans")
     print("L'an prochain vous aurez " + str(age+1) + " ans")
 
@@ -28,6 +28,10 @@ def afficher_informations_personne(nom, age):
         print("Vous êtes majeur")
     else:
         print("Vous êtes mineur")
+
+    # afficher la taille
+    if not taille == 0:
+        print("Votre taille : " + str(taille) + " m")
 
 
 def demander_nom():
@@ -60,12 +64,12 @@ age2 = demander_age(nom2)
 afficher_informations_personne(nom1, age1)
 afficher_informations_personne(nom2, age2)"""
 
-NB_PERSONNES = 3
+NB_PERSONNES = 1
 
 # la boucle for
 for i in range(0, NB_PERSONNES):
     nom = "personne" + str(i+1)
     age = demander_age(nom)
-    afficher_informations_personne(nom, age)
+    afficher_informations_personne(nom, age, 1.60)
 
 

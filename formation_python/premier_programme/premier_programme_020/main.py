@@ -12,19 +12,7 @@ def afficher_informations_personne(nom, age):
     # > supérieur
     # >= supérieur ou égal
     # True / False (Boolean)
-    if age == 17:
-        print("Vous êtres presque majeur")
-    elif 12 <= age < 18:
-        print("Vous êtes adolescent")
-    elif age == 1 or age == 2:
-        print("Vous êtes un bébé")
-    elif age == 18:
-        print("Tout juste majeur : Félicitation")
-    elif age > 60:
-        print("Vous êtes sénior")
-    elif age < 10:
-        print("Vous êtes enfant")
-    elif age >= 18:
+    if age >= 18:
         print("Vous êtes majeur")
     else:
         print("Vous êtes mineur")
@@ -49,7 +37,7 @@ def demander_age(nom_personne):
 #-----------------------------------------------------------------------------
             
 # demander le nom
-"""nom1 = demander_nom()
+nom1 = demander_nom()
 nom2 = demander_nom()
 
 # demander l'age
@@ -58,14 +46,6 @@ age2 = demander_age(nom2)
 
 # Afficher les résultats
 afficher_informations_personne(nom1, age1)
-afficher_informations_personne(nom2, age2)"""
-
-NB_PERSONNES = 3
-
-# la boucle for
-for i in range(0, NB_PERSONNES):
-    nom = "personne" + str(i+1)
-    age = demander_age(nom)
-    afficher_informations_personne(nom, age)
+afficher_informations_personne(nom2, age2)
 
 
